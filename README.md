@@ -13,3 +13,13 @@ Usage:
       ts - true, soft. Increases the color being changed to but half the reltive ammout.
       td - true, double. Increases the color being changed to but doubles the reltive ammont.
       f - false. Switches the colors without increasing the relative ammont.
+
+Examples:
+
+    If we want to switch all the blue in an image with an equal red ammunt we write:
+    
+        ./image_color_replacer.py img.jpg b r f
+    
+    If we want to switch all the green in an image with a slightly increased blue ammunt we write:
+    
+        ./image_color_replacer.py img.jpg g b ts
